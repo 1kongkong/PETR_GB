@@ -27,3 +27,5 @@ from .models.utils.dgcnn_attn import DGCNNAttn
 from .models.utils.detr3d_transformer import Detr3DTransformer, Detr3DTransformerDecoder, Detr3DCrossAtten
 from .models.necks import *
 from .models.losses import *
+from .models.middle_encoders import *
+from .models.fusion_layer import *

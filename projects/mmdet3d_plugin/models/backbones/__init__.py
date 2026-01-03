@@ -6,5 +6,7 @@
 # ------------------------------------------------------------------------
 from .vovnet import VoVNet
 from .vovnetcp import VoVNetCP
-__all__ = ['VoVNet', 'VoVNetCP']
+from .res2d_dilation import RES2Ddilation
+from .resnet import ResNetS64
+__all__ = ['VoVNet', 'VoVNetCP', 'RES2Ddilation', 'ResNetS64']
 
